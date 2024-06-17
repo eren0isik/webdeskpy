@@ -17,9 +17,9 @@ WebDeskPy is a simple application that combines a Flask web server with a PyQt5 
 
 ## Usage
 
-1. Run the server:
+1. Test Code
     ```
-    python intserver.py
+    python test.py
     ```
 
 ## License
