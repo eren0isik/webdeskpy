@@ -15,7 +15,7 @@ class MainWindow(QMainWindow):
         self.browser = QWebEngineView()
         self.profile = QWebEngineProfile.defaultProfile()
         # URL belirle
-        custom_user_agent = "FullOdakApp/1.0"
+        custom_user_agent = "WebDeskPy/1.0"
         self.profile.setHttpUserAgent(custom_user_agent)
         url = QUrl("http://127.0.0.1:6091" + uiloc)
 
