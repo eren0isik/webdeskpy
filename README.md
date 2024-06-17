@@ -6,7 +6,7 @@ WebDeskPy is a simple application that combines a Flask web server with a PyQt5 
 
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/webdeskpy.git
+    git clone https://github.com/eren0isik/webdeskpy.git
     cd webdeskpy
     ```
 
