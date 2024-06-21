@@ -25,7 +25,7 @@ class MainWindow(QMainWindow):
         # Pencere içine yerleştir
         self.setCentralWidget(self.browser)
 
-def UiStart(titLE="PyGreap", locationx=100, locationy=100, width=800, height=600, uilocation=None):
+def UiStart(titLE="WebDeskPy", locationx=100, locationy=100, width=800, height=600, uilocation=None):
     app = QApplication(sys.argv)
     window = MainWindow(title=titLE, locx=locationx, locy=locationy, w=width, h=height, uiloc=uilocation)
     window.show()
